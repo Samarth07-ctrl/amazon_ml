@@ -1,0 +1,40 @@
+# ---- Challenge data (huge; not redistributable; exceeds GitHub's 100MB limit) ----
+utils/datasets/
+*.tsv
+!code/**/*.tsv
+
+# ---- Generated pipeline artifacts ----
+output/
+*.joblib
+*.pkl
+tau.txt
+run_log.jsonl
+*.log
+
+# ---- Submission bundle ----
+*_submission.zip
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
